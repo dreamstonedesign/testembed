@@ -1,0 +1,424 @@
+
+
+Started GET "/login?shop=dreamstonedesignapp.myshopify.com" for 127.0.0.1 at 2015-05-04 09:33:20 +0100
+Processing by SessionsController#new as HTML
+  Parameters: {"shop"=>"dreamstonedesignapp.myshopify.com"}
+  Rendered common/iframe_redirect.html.erb (11.0ms)
+Completed 200 OK in 60ms (Views: 59.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/shopify?shop=dreamstonedesignapp.myshopify.com" for 127.0.0.1 at 2015-05-04 09:33:21 +0100
+
+
+Started GET "/auth/shopify/callback?code=0ab9044908673ee3cf712f7d85966719&hmac=bed0705e51ce25c4725103c023e9bfc592751184b407fa38236fad28d52d6279&shop=dreamstonedesignapp.myshopify.com&signature=22f8f1e92e037c75173f231b23991100&timestamp=1430728412" for 127.0.0.1 at 2015-05-04 09:33:31 +0100
+Processing by SessionsController#show as HTML
+  Parameters: {"code"=>"0ab9044908673ee3cf712f7d85966719", "hmac"=>"bed0705e51ce25c4725103c023e9bfc592751184b407fa38236fad28d52d6279", "shop"=>"dreamstonedesignapp.myshopify.com", "signature"=>"22f8f1e92e037c75173f231b23991100", "timestamp"=>"1430728412"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-04 09:33:32 +0100
+Processing by HomeController#index as HTML
+  Rendered common/_top_bar.html.erb (0.6ms)
+  Rendered home/index.html.erb within layouts/application (24.0ms)
+Completed 200 OK in 176ms (Views: 174.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login?hmac=dcba9dd0a0384f730449e1deb8ebcc34c1723166a666ee4939a48c2759507e4c&shop=dreamstonedesignapp.myshopify.com&signature=e8ff75013ee821a437882e865ac58b81&timestamp=1430728431" for 127.0.0.1 at 2015-05-04 09:33:52 +0100
+Processing by SessionsController#new as HTML
+  Parameters: {"hmac"=>"dcba9dd0a0384f730449e1deb8ebcc34c1723166a666ee4939a48c2759507e4c", "shop"=>"dreamstonedesignapp.myshopify.com", "signature"=>"e8ff75013ee821a437882e865ac58b81", "timestamp"=>"1430728431"}
+  Rendered common/iframe_redirect.html.erb (0.1ms)
+Completed 200 OK in 2ms (Views: 1.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/shopify?shop=dreamstonedesignapp.myshopify.com" for 127.0.0.1 at 2015-05-04 09:33:53 +0100
+
+
+Started GET "/auth/shopify/callback?code=bd421f7e6d6a312b9881164802f5dd4a&hmac=9f3d95795ef206ab7bde82d80a57aed6848aeeb4e73936cbacc6fcf6883a8945&shop=dreamstonedesignapp.myshopify.com&signature=c180876dbce509b109337cd8b9f5cfa8&timestamp=1430728434" for 127.0.0.1 at 2015-05-04 09:33:53 +0100
+Processing by SessionsController#show as HTML
+  Parameters: {"code"=>"bd421f7e6d6a312b9881164802f5dd4a", "hmac"=>"9f3d95795ef206ab7bde82d80a57aed6848aeeb4e73936cbacc6fcf6883a8945", "shop"=>"dreamstonedesignapp.myshopify.com", "signature"=>"c180876dbce509b109337cd8b9f5cfa8", "timestamp"=>"1430728434"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-04 09:33:54 +0100
+Processing by HomeController#index as HTML
+  Rendered common/_top_bar.html.erb (0.1ms)
+  Rendered home/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 7ms (Views: 6.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login?hmac=9b5bef814d44b45d9ec34a3776b040aae6955acb976d8962cc3ec8631c74e8f1&shop=dreamstonedesignapp.myshopify.com&signature=093dafc1e1c8e5f918909bcaada3691f&timestamp=1430728435" for 127.0.0.1 at 2015-05-04 09:33:55 +0100
+Processing by SessionsController#new as HTML
+  Parameters: {"hmac"=>"9b5bef814d44b45d9ec34a3776b040aae6955acb976d8962cc3ec8631c74e8f1", "shop"=>"dreamstonedesignapp.myshopify.com", "signature"=>"093dafc1e1c8e5f918909bcaada3691f", "timestamp"=>"1430728435"}
+  Rendered common/iframe_redirect.html.erb (0.1ms)
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/shopify?shop=dreamstonedesignapp.myshopify.com" for 127.0.0.1 at 2015-05-04 09:33:55 +0100
+
+
+Started GET "/auth/shopify/callback?code=9e1053926512bc1cdfd05b970be5672e&hmac=cd2f0b9767f845c875901ed747b7318b917bbd86da0826536b300f5a9a8130d6&shop=dreamstonedesignapp.myshopify.com&signature=c1e078d94a96e09315d4226bf6920e9f&timestamp=1430728436" for 127.0.0.1 at 2015-05-04 09:33:55 +0100
+Processing by SessionsController#show as HTML
+  Parameters: {"code"=>"9e1053926512bc1cdfd05b970be5672e", "hmac"=>"cd2f0b9767f845c875901ed747b7318b917bbd86da0826536b300f5a9a8130d6", "shop"=>"dreamstonedesignapp.myshopify.com", "signature"=>"c1e078d94a96e09315d4226bf6920e9f", "timestamp"=>"1430728436"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-04 09:33:56 +0100
+Processing by HomeController#index as HTML
+  Rendered common/_top_bar.html.erb (0.1ms)
+  Rendered home/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 9ms (Views: 7.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login?hmac=2b35b7630d8bdc18fd0eecd842f47a8e5ef9902e120896c0c91163c4e7635c40&shop=dreamstonedesignapp.myshopify.com&signature=530a8fd962aeb7ca9d10cf39ac5a3d29&timestamp=1430728437" for 127.0.0.1 at 2015-05-04 09:33:57 +0100
+Processing by SessionsController#new as HTML
+  Parameters: {"hmac"=>"2b35b7630d8bdc18fd0eecd842f47a8e5ef9902e120896c0c91163c4e7635c40", "shop"=>"dreamstonedesignapp.myshopify.com", "signature"=>"530a8fd962aeb7ca9d10cf39ac5a3d29", "timestamp"=>"1430728437"}
+  Rendered common/iframe_redirect.html.erb (0.1ms)
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/shopify?shop=dreamstonedesignapp.myshopify.com" for 127.0.0.1 at 2015-05-04 09:33:57 +0100
+
+
+Started GET "/auth/shopify/callback?code=63623827e2c2a71b748062664bf61000&hmac=6133fb124a1ec57874dca1a1dbc20605436ffacd746278b1ab02dfbc7055d3f1&shop=dreamstonedesignapp.myshopify.com&signature=b5c898bbdc9805fe5e9f2afd63c4b724&timestamp=1430728438" for 127.0.0.1 at 2015-05-04 09:33:57 +0100
+Processing by SessionsController#show as HTML
+  Parameters: {"code"=>"63623827e2c2a71b748062664bf61000", "hmac"=>"6133fb124a1ec57874dca1a1dbc20605436ffacd746278b1ab02dfbc7055d3f1", "shop"=>"dreamstonedesignapp.myshopify.com", "signature"=>"b5c898bbdc9805fe5e9f2afd63c4b724", "timestamp"=>"1430728438"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-04 09:33:57 +0100
+Processing by HomeController#index as HTML
+  Rendered common/_top_bar.html.erb (0.1ms)
+  Rendered home/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 8ms (Views: 7.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login?hmac=b634386cca0eb2daa672de7d9af4deed8840012da78e9e67e0a9279660c3361b&shop=dreamstonedesignapp.myshopify.com&signature=3c7a7204f90af92173e5fe6423bc534a&timestamp=1430728439" for 127.0.0.1 at 2015-05-04 09:33:58 +0100
+Processing by SessionsController#new as HTML
+  Parameters: {"hmac"=>"b634386cca0eb2daa672de7d9af4deed8840012da78e9e67e0a9279660c3361b", "shop"=>"dreamstonedesignapp.myshopify.com", "signature"=>"3c7a7204f90af92173e5fe6423bc534a", "timestamp"=>"1430728439"}
+  Rendered common/iframe_redirect.html.erb (0.1ms)
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/shopify?shop=dreamstonedesignapp.myshopify.com" for 127.0.0.1 at 2015-05-04 09:33:59 +0100
+
+
+Started GET "/login?shop=dreamstonedesignapp.myshopify.com" for 127.0.0.1 at 2015-05-04 10:07:37 +0100
+Processing by SessionsController#new as HTML
+  Parameters: {"shop"=>"dreamstonedesignapp.myshopify.com"}
+  Rendered common/iframe_redirect.html.erb (0.1ms)
+Completed 200 OK in 33ms (Views: 32.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/shopify?shop=dreamstonedesignapp.myshopify.com" for 127.0.0.1 at 2015-05-04 10:07:37 +0100
+
+
+Started GET "/auth/shopify/callback?code=2f0b9dfc140d6cbcf96633b85839c892&hmac=f956b512935fa5e6bd2faba646467a9c0419aa99bbee1ce3d5d67617d42641db&shop=dreamstonedesignapp.myshopify.com&signature=4d4e3b1d3ba2db3518756ce5efbb9b23&timestamp=1430730468" for 127.0.0.1 at 2015-05-04 10:07:47 +0100
+Processing by SessionsController#show as HTML
+  Parameters: {"code"=>"2f0b9dfc140d6cbcf96633b85839c892", "hmac"=>"f956b512935fa5e6bd2faba646467a9c0419aa99bbee1ce3d5d67617d42641db", "shop"=>"dreamstonedesignapp.myshopify.com", "signature"=>"4d4e3b1d3ba2db3518756ce5efbb9b23", "timestamp"=>"1430730468"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-04 10:07:47 +0100
+Processing by HomeController#index as HTML
+  Rendered common/_top_bar.html.erb (0.1ms)
+  Rendered home/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 51ms (Views: 49.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login?hmac=3d75412595e9c06610e4c8ed46be11f2d9d04bcd972eb0e70771dfd38987e530&shop=dreamstonedesignapp.myshopify.com&signature=88fabded83f87ed3caaff77f860c6692&timestamp=1430730469" for 127.0.0.1 at 2015-05-04 10:07:56 +0100
+Processing by SessionsController#new as HTML
+  Parameters: {"hmac"=>"3d75412595e9c06610e4c8ed46be11f2d9d04bcd972eb0e70771dfd38987e530", "shop"=>"dreamstonedesignapp.myshopify.com", "signature"=>"88fabded83f87ed3caaff77f860c6692", "timestamp"=>"1430730469"}
+  Rendered common/iframe_redirect.html.erb (0.1ms)
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/shopify?shop=dreamstonedesignapp.myshopify.com" for 127.0.0.1 at 2015-05-04 10:08:04 +0100
+
+
+Started GET "/auth/shopify/callback?code=310b19a5fead44582dbfd17384572253&hmac=0974d3909c8588319372e98e22e34d3cfcd575cbfb3d44f4f152a60ec119690f&shop=dreamstonedesignapp.myshopify.com&signature=4eb723b982ba96eb1fe97420ca2fed38&timestamp=1430730486" for 127.0.0.1 at 2015-05-04 10:08:05 +0100
+Processing by SessionsController#show as HTML
+  Parameters: {"code"=>"310b19a5fead44582dbfd17384572253", "hmac"=>"0974d3909c8588319372e98e22e34d3cfcd575cbfb3d44f4f152a60ec119690f", "shop"=>"dreamstonedesignapp.myshopify.com", "signature"=>"4eb723b982ba96eb1fe97420ca2fed38", "timestamp"=>"1430730486"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-04 10:08:05 +0100
+Processing by HomeController#index as HTML
+  Rendered common/_top_bar.html.erb (0.1ms)
+  Rendered home/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 7ms (Views: 6.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login?hmac=91c4c83c094454d1f78f976045f697240edbdd963ef88ffe6d8cdc91fa7ec6c0&shop=dreamstonedesignapp.myshopify.com&signature=0a4ffc06cc7af92cecae47eb8c401eef&timestamp=1430730487" for 127.0.0.1 at 2015-05-04 10:08:06 +0100
+Processing by SessionsController#new as HTML
+  Parameters: {"hmac"=>"91c4c83c094454d1f78f976045f697240edbdd963ef88ffe6d8cdc91fa7ec6c0", "shop"=>"dreamstonedesignapp.myshopify.com", "signature"=>"0a4ffc06cc7af92cecae47eb8c401eef", "timestamp"=>"1430730487"}
+  Rendered common/iframe_redirect.html.erb (0.1ms)
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/shopify?shop=dreamstonedesignapp.myshopify.com" for 127.0.0.1 at 2015-05-04 10:08:06 +0100
+
+
+Started GET "/auth/shopify/callback?code=9aa4e1043abc7e630a603f7c43891f52&hmac=9c4bee6a67a77c6c0de34365e622fe254f597305a18ccab3530d02ca80d23f1b&shop=dreamstonedesignapp.myshopify.com&signature=d5614ddc1b2a1f5f3517ef1d99a54349&timestamp=1430730488" for 127.0.0.1 at 2015-05-04 10:08:06 +0100
+Processing by SessionsController#show as HTML
+  Parameters: {"code"=>"9aa4e1043abc7e630a603f7c43891f52", "hmac"=>"9c4bee6a67a77c6c0de34365e622fe254f597305a18ccab3530d02ca80d23f1b", "shop"=>"dreamstonedesignapp.myshopify.com", "signature"=>"d5614ddc1b2a1f5f3517ef1d99a54349", "timestamp"=>"1430730488"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-04 10:08:07 +0100
+Processing by HomeController#index as HTML
+  Rendered common/_top_bar.html.erb (0.1ms)
+  Rendered home/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 8ms (Views: 6.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login?hmac=e53a375ce8123e117d53b284271fae93f6f8d3e73c7f552f1656cda3dc002021&shop=dreamstonedesignapp.myshopify.com&signature=ac2b541064c0de5740b2bf9f3b0558d0&timestamp=1430730489" for 127.0.0.1 at 2015-05-04 10:08:08 +0100
+Processing by SessionsController#new as HTML
+  Parameters: {"hmac"=>"e53a375ce8123e117d53b284271fae93f6f8d3e73c7f552f1656cda3dc002021", "shop"=>"dreamstonedesignapp.myshopify.com", "signature"=>"ac2b541064c0de5740b2bf9f3b0558d0", "timestamp"=>"1430730489"}
+  Rendered common/iframe_redirect.html.erb (0.1ms)
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/shopify?shop=dreamstonedesignapp.myshopify.com" for 127.0.0.1 at 2015-05-04 10:08:08 +0100
+
+
+Started GET "/login?shop=dreamstonedesignapp.myshopify.com" for 127.0.0.1 at 2015-05-04 10:11:35 +0100
+Processing by SessionsController#new as HTML
+  Parameters: {"shop"=>"dreamstonedesignapp.myshopify.com"}
+  Rendered common/iframe_redirect.html.erb (0.1ms)
+Completed 200 OK in 25ms (Views: 24.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/shopify?shop=dreamstonedesignapp.myshopify.com" for 127.0.0.1 at 2015-05-04 10:11:36 +0100
+
+
+Started GET "/auth/shopify/callback?code=74ac1b12a0e392ee2cf3a59264d7f3db&hmac=7e1a67b6e2b0b344b1d6f6c83bdf838bd7ebd112fc5638622d043196fc91d190&shop=dreamstonedesignapp.myshopify.com&signature=6444d703419bd1918cac0034a1c002d0&timestamp=1430730696" for 127.0.0.1 at 2015-05-04 10:11:36 +0100
+Processing by SessionsController#show as HTML
+  Parameters: {"code"=>"74ac1b12a0e392ee2cf3a59264d7f3db", "hmac"=>"7e1a67b6e2b0b344b1d6f6c83bdf838bd7ebd112fc5638622d043196fc91d190", "shop"=>"dreamstonedesignapp.myshopify.com", "signature"=>"6444d703419bd1918cac0034a1c002d0", "timestamp"=>"1430730696"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-04 10:11:37 +0100
+Processing by HomeController#index as HTML
+  Rendered common/_top_bar.html.erb (0.1ms)
+  Rendered home/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 21ms (Views: 20.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login?hmac=a35d588c6a3e1be37d4c7ff678f1e323aa21616aac07dc729bd52e8c0b74e6c5&shop=dreamstonedesignapp.myshopify.com&signature=e260901ef3be3b3d157fdc55a0e5fcea&timestamp=1430730697" for 127.0.0.1 at 2015-05-04 10:11:45 +0100
+Processing by SessionsController#new as HTML
+  Parameters: {"hmac"=>"a35d588c6a3e1be37d4c7ff678f1e323aa21616aac07dc729bd52e8c0b74e6c5", "shop"=>"dreamstonedesignapp.myshopify.com", "signature"=>"e260901ef3be3b3d157fdc55a0e5fcea", "timestamp"=>"1430730697"}
+  Rendered common/iframe_redirect.html.erb (0.1ms)
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/shopify?shop=dreamstonedesignapp.myshopify.com" for 127.0.0.1 at 2015-05-04 10:11:47 +0100
+
+
+Started GET "/auth/shopify/callback?code=f50a6e90b98fab4ceeea3e35ace89782&hmac=ffe40d19e9788f559c1e3d490c26f99e067ac76d60d2c199896b75829cb1caae&shop=dreamstonedesignapp.myshopify.com&signature=2a87cee8b36b1903192a1f71f9208053&timestamp=1430730707" for 127.0.0.1 at 2015-05-04 10:11:47 +0100
+Processing by SessionsController#show as HTML
+  Parameters: {"code"=>"f50a6e90b98fab4ceeea3e35ace89782", "hmac"=>"ffe40d19e9788f559c1e3d490c26f99e067ac76d60d2c199896b75829cb1caae", "shop"=>"dreamstonedesignapp.myshopify.com", "signature"=>"2a87cee8b36b1903192a1f71f9208053", "timestamp"=>"1430730707"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-04 10:11:47 +0100
+Processing by HomeController#index as HTML
+  Rendered common/_top_bar.html.erb (0.1ms)
+  Rendered home/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 8ms (Views: 7.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login?hmac=57a0ceec2367054649b538e3ec23280b09c8e291e3c2d75deef87bfd10aecf0f&shop=dreamstonedesignapp.myshopify.com&signature=14f2fb84f85ebdd993e9610cfc7bfeaa&timestamp=1430730708" for 127.0.0.1 at 2015-05-04 10:11:48 +0100
+Processing by SessionsController#new as HTML
+  Parameters: {"hmac"=>"57a0ceec2367054649b538e3ec23280b09c8e291e3c2d75deef87bfd10aecf0f", "shop"=>"dreamstonedesignapp.myshopify.com", "signature"=>"14f2fb84f85ebdd993e9610cfc7bfeaa", "timestamp"=>"1430730708"}
+  Rendered common/iframe_redirect.html.erb (0.1ms)
+Completed 200 OK in 3ms (Views: 2.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/shopify?shop=dreamstonedesignapp.myshopify.com" for 127.0.0.1 at 2015-05-04 10:11:48 +0100
+
+
+Started GET "/auth/shopify/callback?code=a1d4b44a57141b213f2ab039952b7421&hmac=36e897cd9ba5b137271e0cb81d537f3a2406eb4e3c510d393ba597442cc08ffc&shop=dreamstonedesignapp.myshopify.com&signature=b32b79765fb15631a2f99a205d155258&timestamp=1430730708" for 127.0.0.1 at 2015-05-04 10:11:48 +0100
+Processing by SessionsController#show as HTML
+  Parameters: {"code"=>"a1d4b44a57141b213f2ab039952b7421", "hmac"=>"36e897cd9ba5b137271e0cb81d537f3a2406eb4e3c510d393ba597442cc08ffc", "shop"=>"dreamstonedesignapp.myshopify.com", "signature"=>"b32b79765fb15631a2f99a205d155258", "timestamp"=>"1430730708"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-04 10:11:49 +0100
+Processing by HomeController#index as HTML
+  Rendered common/_top_bar.html.erb (0.1ms)
+  Rendered home/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 19ms (Views: 17.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login?hmac=a6109366812eb793b01cb922604013ead51741955fbe992cd39eddbdc3fb8966&shop=dreamstonedesignapp.myshopify.com&signature=81c85e9ec84d909a681d73b28ed23779&timestamp=1430730709" for 127.0.0.1 at 2015-05-04 10:11:50 +0100
+Processing by SessionsController#new as HTML
+  Parameters: {"hmac"=>"a6109366812eb793b01cb922604013ead51741955fbe992cd39eddbdc3fb8966", "shop"=>"dreamstonedesignapp.myshopify.com", "signature"=>"81c85e9ec84d909a681d73b28ed23779", "timestamp"=>"1430730709"}
+  Rendered common/iframe_redirect.html.erb (0.1ms)
+Completed 200 OK in 22ms (Views: 21.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/shopify?shop=dreamstonedesignapp.myshopify.com" for 127.0.0.1 at 2015-05-04 10:11:50 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-04 10:23:27 +0100
+Processing by HomeController#index as HTML
+Redirected to http://localhost:3000/login
+Completed 302 Found in 49ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2015-05-04 10:23:27 +0100
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb (2.5ms)
+Completed 200 OK in 47ms (Views: 46.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-04 10:23:47 +0100
+Processing by HomeController#index as HTML
+Redirected to http://localhost:3000/login
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2015-05-04 10:23:47 +0100
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb (0.1ms)
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-04 10:23:54 +0100
+Processing by HomeController#index as HTML
+Redirected to http://localhost:3000/login
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2015-05-04 10:23:54 +0100
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb (0.1ms)
+Completed 200 OK in 1ms (Views: 1.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-04 10:57:33 +0100
+Processing by HomeController#index as HTML
+Redirected to http://localhost:3000/login
+Completed 302 Found in 39ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2015-05-04 10:57:33 +0100
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb (23.4ms)
+Completed 200 OK in 86ms (Views: 85.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login?shop=dreamstonedesignapp.myshopify.com" for 127.0.0.1 at 2015-05-04 10:57:57 +0100
+Processing by SessionsController#new as HTML
+  Parameters: {"shop"=>"dreamstonedesignapp.myshopify.com"}
+  Rendered common/iframe_redirect.html.erb (0.9ms)
+Completed 200 OK in 32ms (Views: 32.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/shopify?shop=dreamstonedesignapp.myshopify.com" for 127.0.0.1 at 2015-05-04 10:57:57 +0100
+
+
+Started GET "/auth/shopify/callback?code=79501dba0ff2dde6bff07e480c45325f&hmac=759070f4691ace7722b778a4e62d2e034aef372fd641d68542a6e2ede6ef406b&shop=dreamstonedesignapp.myshopify.com&signature=ab42ecaf31601c6dabdb231f418340f1&timestamp=1430733482" for 127.0.0.1 at 2015-05-04 10:58:02 +0100
+Processing by SessionsController#show as HTML
+  Parameters: {"code"=>"79501dba0ff2dde6bff07e480c45325f", "hmac"=>"759070f4691ace7722b778a4e62d2e034aef372fd641d68542a6e2ede6ef406b", "shop"=>"dreamstonedesignapp.myshopify.com", "signature"=>"ab42ecaf31601c6dabdb231f418340f1", "timestamp"=>"1430733482"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-04 10:58:03 +0100
+Processing by HomeController#index as HTML
+  Rendered common/_top_bar.html.erb (0.5ms)
+  Rendered home/index.html.erb within layouts/application (42.2ms)
+Completed 200 OK in 226ms (Views: 224.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login?hmac=2d900a346793629302fa37a8826655d881c4370cd3cc34f08dbaffff397f1e50&shop=dreamstonedesignapp.myshopify.com&signature=517a04c46ff8697c8caf35f19941ad66&timestamp=1430733494" for 127.0.0.1 at 2015-05-04 10:58:15 +0100
+Processing by SessionsController#new as HTML
+  Parameters: {"hmac"=>"2d900a346793629302fa37a8826655d881c4370cd3cc34f08dbaffff397f1e50", "shop"=>"dreamstonedesignapp.myshopify.com", "signature"=>"517a04c46ff8697c8caf35f19941ad66", "timestamp"=>"1430733494"}
+  Rendered common/iframe_redirect.html.erb (0.1ms)
+Completed 200 OK in 16ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/shopify?shop=dreamstonedesignapp.myshopify.com" for 127.0.0.1 at 2015-05-04 10:58:15 +0100
+
+
+Started GET "/auth/shopify/callback?code=7d8ed36c9f6cb054edfde9a91f56fe0d&hmac=31fa5b15d9d0832b85d8b4f2fb9b70d230bd782d1b77307e6fa22bf7903d022f&shop=dreamstonedesignapp.myshopify.com&signature=22f49a361ad98023bbcbffbfeebc57b0&timestamp=1430733495" for 127.0.0.1 at 2015-05-04 10:58:16 +0100
+Processing by SessionsController#show as HTML
+  Parameters: {"code"=>"7d8ed36c9f6cb054edfde9a91f56fe0d", "hmac"=>"31fa5b15d9d0832b85d8b4f2fb9b70d230bd782d1b77307e6fa22bf7903d022f", "shop"=>"dreamstonedesignapp.myshopify.com", "signature"=>"22f49a361ad98023bbcbffbfeebc57b0", "timestamp"=>"1430733495"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-04 10:58:16 +0100
+Processing by HomeController#index as HTML
+  Rendered common/_top_bar.html.erb (0.1ms)
+  Rendered home/index.html.erb within layouts/application (7.4ms)
+Completed 200 OK in 34ms (Views: 33.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login?hmac=32fe3edb4633d5f39375ecf93ecc523afecf398c1c88acb5fb2eaffe6294ae37&shop=dreamstonedesignapp.myshopify.com&signature=1b0a94cd5a22b72ba02457c18c2031ed&timestamp=1430733496" for 127.0.0.1 at 2015-05-04 10:58:17 +0100
+Processing by SessionsController#new as HTML
+  Parameters: {"hmac"=>"32fe3edb4633d5f39375ecf93ecc523afecf398c1c88acb5fb2eaffe6294ae37", "shop"=>"dreamstonedesignapp.myshopify.com", "signature"=>"1b0a94cd5a22b72ba02457c18c2031ed", "timestamp"=>"1430733496"}
+  Rendered common/iframe_redirect.html.erb (0.1ms)
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/shopify?shop=dreamstonedesignapp.myshopify.com" for 127.0.0.1 at 2015-05-04 10:58:17 +0100
+
+
+Started GET "/auth/shopify/callback?code=b6fbfb69287962428988d9c99207ceab&hmac=d1ec38899f77a71e0e336dd2dfb9a09f6d4a00f76184715e7c7704b9a9c6e259&shop=dreamstonedesignapp.myshopify.com&signature=7276ee5231e2c3df799d4e6be5c6f17a&timestamp=1430733497" for 127.0.0.1 at 2015-05-04 10:58:18 +0100
+Processing by SessionsController#show as HTML
+  Parameters: {"code"=>"b6fbfb69287962428988d9c99207ceab", "hmac"=>"d1ec38899f77a71e0e336dd2dfb9a09f6d4a00f76184715e7c7704b9a9c6e259", "shop"=>"dreamstonedesignapp.myshopify.com", "signature"=>"7276ee5231e2c3df799d4e6be5c6f17a", "timestamp"=>"1430733497"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-04 10:58:18 +0100
+Processing by HomeController#index as HTML
+  Rendered common/_top_bar.html.erb (0.1ms)
+  Rendered home/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 7ms (Views: 6.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login?hmac=683a3568cf36d84e5c78781e4b6d6995755abedfaa4b8dfa353c63d1c0aeedb1&shop=dreamstonedesignapp.myshopify.com&signature=b43a14a754f9d9eecdcc82514045f598&timestamp=1430733498" for 127.0.0.1 at 2015-05-04 10:58:19 +0100
+Processing by SessionsController#new as HTML
+  Parameters: {"hmac"=>"683a3568cf36d84e5c78781e4b6d6995755abedfaa4b8dfa353c63d1c0aeedb1", "shop"=>"dreamstonedesignapp.myshopify.com", "signature"=>"b43a14a754f9d9eecdcc82514045f598", "timestamp"=>"1430733498"}
+  Rendered common/iframe_redirect.html.erb (0.1ms)
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/shopify?shop=dreamstonedesignapp.myshopify.com" for 127.0.0.1 at 2015-05-04 10:58:19 +0100
+
+
+Started GET "/auth/shopify/callback?code=1da2f3ce6311f22c76883367c0c72df5&hmac=b8502a6f0ccb6ef21591009c3e7174039710344a1efddac45002b9a8bc908067&shop=dreamstonedesignapp.myshopify.com&signature=663461ea8000b52d816747518c2123bc&timestamp=1430733499" for 127.0.0.1 at 2015-05-04 10:58:19 +0100
+Processing by SessionsController#show as HTML
+  Parameters: {"code"=>"1da2f3ce6311f22c76883367c0c72df5", "hmac"=>"b8502a6f0ccb6ef21591009c3e7174039710344a1efddac45002b9a8bc908067", "shop"=>"dreamstonedesignapp.myshopify.com", "signature"=>"663461ea8000b52d816747518c2123bc", "timestamp"=>"1430733499"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-04 10:58:20 +0100
+Processing by HomeController#index as HTML
+  Rendered common/_top_bar.html.erb (0.1ms)
+  Rendered home/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 8ms (Views: 7.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login?hmac=7c0045c8673a24f284c440d0705eb00baa9236ce7bf2da064359dd7100f2741b&shop=dreamstonedesignapp.myshopify.com&signature=ee372a2623d5feb763ef84af4e5dcc0d&timestamp=1430733500" for 127.0.0.1 at 2015-05-04 10:58:21 +0100
+Processing by SessionsController#new as HTML
+  Parameters: {"hmac"=>"7c0045c8673a24f284c440d0705eb00baa9236ce7bf2da064359dd7100f2741b", "shop"=>"dreamstonedesignapp.myshopify.com", "signature"=>"ee372a2623d5feb763ef84af4e5dcc0d", "timestamp"=>"1430733500"}
+  Rendered common/iframe_redirect.html.erb (0.1ms)
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/shopify?shop=dreamstonedesignapp.myshopify.com" for 127.0.0.1 at 2015-05-04 10:58:21 +0100
